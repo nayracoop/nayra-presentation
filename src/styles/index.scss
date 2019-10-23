@@ -2,10 +2,10 @@
 
 /*MIXINS*/
 
-@mixin main-title($size){
+@mixin main-title($size, $color){
     font-family: $display;
     font-size: $size;
-    color: $white;
+    color: $color;
 }
 
 @mixin layout ($columns, $rows){
@@ -33,10 +33,10 @@
     }
 
     .cover-pageNumber{
-        @include main-title(10rem);
+        @include main-title(10rem, $white);
         border-bottom:1px solid $white;
     }
     .cover-title{
-        @include main-title(5rem);
+        @include main-title(5rem, $white);
     }
 }
