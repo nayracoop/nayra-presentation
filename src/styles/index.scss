@@ -2,41 +2,122 @@
 
 /*MIXINS*/
 
-@mixin main-title($size, $color){
+@mixin main-title($size, $color) {
     font-family: $display;
     font-size: $size;
     color: $color;
 }
 
-@mixin layout ($columns, $rows){
+@mixin layout ($columns, $rows, $background-color) {
+    height:100vh;
     padding:2%;
+    padding-left:4%;
     display: grid;
     grid-template-columns:$columns;
     grid-template-rows:$rows;
+    background-color: $background-color;
 }
 
-@mixin flex($justify){
+@mixin flex($justify) {
     display:flex;
     justify-content: $justify;
 }
 
+/*GENERAL*/
+body {
+    font-family: $text;
+}
+
+/*NAVBAR*/
+
+.navBar {
+    position:fixed;
+    height: 100vh;
+    padding:2% 1%;
+    text-align: left;
+
+    ul {
+        padding-left: 10px;;
+
+        li {
+            width:10px;
+            height:10px;
+            background: $white;
+            overflow: hidden;
+            margin-bottom: 30px;
+            transition: all .5s ease-in-out;
+            font-size: 2rem;
+            font-family: $display;
+
+            &:hover {
+                padding-left: 10px;
+                overflow: visible; 
+                width: 300px;
+                height: 30px;
+                background-color: $orange-dark;
+            }
+
+            &:hover a {
+                color: $white;
+            }
+
+            a {
+                text-decoration: none;
+                width: 100%;
+                height: 100%;
+                color: transparent; 
+            }
+        }
+    }
+}
+
+
 /*COVER*/
 
-.layout-cover{
-    @include layout("", $one-fifth);
-    height:100vh;
-    background-color: $black;
+.layout-cover {
+    @include layout("", $one-fifth, $black);
+    background-image: $grid_background; 
 
-    .inner-container{
-        height: 100vh;
+    .inner-container {
+        height: 90vh;
         border: 1px solid $white;
     }
 
-    .cover-pageNumber{
+    .cover-pageNumber {
         @include main-title(10rem, $white);
+        @include flex(flex-end);
+        padding-right: $text-padding;
         border-bottom:1px solid $white;
     }
-    .cover-title{
+
+    .cover-title {
+        @include flex(flex-end);
         @include main-title(5rem, $white);
+        padding-right: $text-padding;
+        padding-top: $text-padding;
+    }
+}
+
+/*TEAM*/
+
+.layout-team {
+    @include layout($three-columns,"", $black);
+    background-image: $grid_background; 
+
+}
+
+.teamMember {
+    color: $white;
+
+    .memberPicture{
+        width:200px;
+        height: 200px;
+        border-radius: 50%;
+        background: $orange-dark;
+        margin: 0 auto;
+
+    }
+    .name {
+        @include main-title (2rem, $white)
     }
 }
