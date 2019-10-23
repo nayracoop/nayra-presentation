@@ -1,0 +1,17 @@
+@import './variables';
+
+@mixin main-title($size){
+    font-family: $display;
+    font-size: $size;
+    color: $white;
+}
+
+.cover{
+    height:100vh;
+    background-color: $black;
+    .cover-pageNumber{
+        @include main-title(7rem);
+
+
+    }
+}
