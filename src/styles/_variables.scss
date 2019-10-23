@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Saira|Work+Sans&display=swap');
 
-
-/*COLORs*/
+/*COLORS*/
 $black:#04080d;
 $white:#dedede;
 $grey-light:#a5a5a5;
-$grey-medium:#3e3d3d;
-$grey-dark:#656565;
+$grey-dark:#3e3d3d;
+$grey-medium:#656565;
 $orange-dark:#ee3d06;
 $orange-light: #f16439;
 $yellow:#ff9d15;
@@ -24,3 +23,8 @@ $two-rows:1fr 1fr;
 $three-rows: 1fr 1fr 1fr;
 $one-fifth:20% 80%;
 
+/*BACKGROUNDS*/
+$grid-background:url('../assets/imgs/fondo_transparente.png');
+
+/*PADDINGS - MARGINS*/
+$text-padding: 2%;
