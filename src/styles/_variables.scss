@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Saira|Work+Sans&display=swap');
 
 
-/*COLORES*/
+/*COLORs*/
 $black:#04080d;
 $white:#dedede;
 $grey-light:#a5a5a5;
@@ -13,9 +13,14 @@ $yellow:#ff9d15;
 $green:#18c59e;
 $blue:#04232e;
 
-/*TIPOGRAFIAS*/
+/*TYPOGRAPHY*/
 $display:'Saira', sans-serif;
 $text: 'Work Sans', sans-serif;
 
-
+/*LAYOUT*/
+$two-columns: 1fr 1fr;
+$three-columns: 1fr 1fr 1fr;
+$two-rows:1fr 1fr;
+$three-rows: 1fr 1fr 1fr;
+$one-fifth:20% 80%;
 
