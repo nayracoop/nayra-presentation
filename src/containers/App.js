@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route} from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import './App.scss';
+
+
 import Cover from '../components/Cover/Cover';
 import Nav from '../components/Nav/Nav'
 
@@ -11,7 +13,8 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Nav className="Navbar"/>
-          <Route path="/" exact>
+          
+          <Route path="/about" exact>
             <Cover pageNumber="01" title="¿Quienes Somos?" />
           </Route>
         </div>
