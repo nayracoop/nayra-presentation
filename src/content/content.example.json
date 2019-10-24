@@ -32,6 +32,10 @@
       "title": "Bla bla",
       "text": "Somos nmayura"
     },
+    "coop": {
+        "number": "02",
+        "title": "Por qué cooperativa"
+      },
     "end": {
         "title": "Gracias :)",
         "description": "nayra.coop | facttic.org.ar | facttic.org.ar/fit"
@@ -60,9 +64,9 @@
     "navigation": [
         {
             "url": "/",
-            "title": "Presentación",
-            "visible": true,
-            "exact": true
+            "title": "Inicio",
+            "visible": false,
+            "exact": false
         },
         {
             "url": "/about",
@@ -78,25 +82,25 @@
         },
         {
             "url": "/cooperativism",
-            "title": "Cooperativas",
+            "title": "Por qué cooperativa",
             "visible": true,
             "exact": false
         },
         {
             "url": "/cooperativism/how",
-            "title": "Cooperativas",
+            "title": "Por qué cooperativa",
             "visible": false,
             "exact": false
         },
         {
             "url": "/cooperativism/facttic",
-            "title": "Cooperativas",
+            "title": "Por qué cooperativa",
             "visible": false,
             "exact": false
         },
         {
             "url": "/cooperativism/fit",
-            "title": "Cooperativas",
+            "title": "Por qué cooperativa",
             "visible": false,
             "exact": false
         },
