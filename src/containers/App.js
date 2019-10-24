@@ -15,6 +15,7 @@ import Fit from '../components/Cooperativism/Fit';
 import CreativeCoding from '../components/Art/CreativeCoding';
 import SoftwareIndustry from '../components/SoftwareIndustry/SoftwareIndustry';
 
+
 class App extends Component {
 
   componentDidMount() {
@@ -60,13 +61,13 @@ class App extends Component {
           <Intro title={texts.intro.title} description={texts.intro.description} date={texts.intro.date} />
         </Route>
         <Route path="/about" exact>
-          <Cover pageNumber={texts.about.number} title={texts.about.title} />
+          <Cover pageNumber="01" title={texts.about.title} />
         </Route>
         <Route path="/about/team" exact>
           <Team members={texts.members} />
         </Route>
         <Route path="/about/nayra" exact>
-          <Nayra title={texts.nayra.title} text={texts.nayra.text} img="" />
+          <Nayra title={texts.nayra.title} text={texts.nayra.text} image={require('../assets/img/' + texts.nayra.img)} />
         </Route>
         <Route path="/cooperativism" exact>
         <Cover pageNumber={texts.coop.number} title={texts.coop.title} />

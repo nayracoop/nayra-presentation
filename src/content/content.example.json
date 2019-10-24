@@ -5,32 +5,45 @@
         "date": "2019"
     },
     "about": {
-      "number": "01",
-      "title": "Quiénes Somos"
+        "number": "01",
+        "title": "Quiénes Somos"
     },
     "members": [
         {
             "name": "Tobi",
             "bio": "Desarrollador front-end",
-            "info": [ "Socio de Nayra", "Viajes", "Ciclismo" ],
+            "info": [
+                "Socio de Nayra",
+                "Viajes",
+                "Ciclismo"
+            ],
             "icon": "tobi.svg"
         },
         {
             "name": "Romi",
             "bio": "Diseñadora UX / Desarrolladora frond-end",
-            "info": [ "Socia de Nayra", "Artes Electrónicas", "Música" ],
+            "info": [
+                "Socia de Nayra",
+                "Artes Electrónicas",
+                "Música"
+            ],
             "icon": "romi.svg"
         },
         {
             "name": "Nacho",
             "bio": "Desarrollador interactivo",
-            "info": [ "Socio de Nayra", "Artes Electrónicas", "Natación" ],
+            "info": [
+                "Socio de Nayra",
+                "Artes Electrónicas",
+                "Natación"
+            ],
             "icon": "nacho.svg"
         }
     ],
     "nayra": {
-      "title": "Bla bla",
-      "text": "Somos nmayura"
+        "title": "nayra",
+        "text": "Somos un equipo de programadorxs y artistas constituido como cooperativa de trabajo, dedicado al desarrollo de sistemas interactivos de calidad, confiables y dinámicos. Buscamos perfilarnos como actores culturales en el campo digital y contribuir con nuestro trabajo y experiencia al desarrollo de nuestra comunidad.",
+        "img": "nayres.jpg"
     },
     "coop": {
         "number": "02",
@@ -42,31 +55,32 @@
     },
     "cooperativism": {
         "title": "¿Qué es una Cooperativa?",
-        "text": "Empresas democráticas"
+        "text": "Empresas democráticas",
+        "img": "nayres.jpg"
     },
     "facttic": {
         "title": "¿Qué es FACTTIC?",
-        "text": "FACTTIC es blablablabla saraza"
+        "text": "FACTTIC es blablablabla saraza",
+        "img": "nayres.jpg"
     },
     "fit": {
         "title": "¿Qué es FIT?",
         "text": "El FIT es blablablabla saraza"
     },
     "creativeCoding": {
+        "title": "Creative Coding",
+        "text": "Creative Coding es blablablabla saraza"
+    },
+    "software": {
         "title": "¿Qué es FIT?",
         "text": "El FIT es blablablabla saraza"
-    },    
-    "software": {
-      "title": "¿Qué es FIT?",
-      "text": "El FIT es blablablabla saraza"
     },
-  
     "navigation": [
         {
             "url": "/",
-            "title": "Inicio",
+            "title": "Intro",
             "visible": false,
-            "exact": false
+            "exact": true
         },
         {
             "url": "/about",
@@ -76,6 +90,12 @@
         },
         {
             "url": "/about/team",
+            "title": "Equipo",
+            "visible": false,
+            "exact": false
+        },
+        {
+            "url": "/about/nayra",
             "title": "Equipo",
             "visible": false,
             "exact": false
@@ -123,11 +143,16 @@
             "exact": false
         },
         {
+            "url": "/industry/arg",
+            "title": "Software",
+            "visible": false,
+            "exact": false
+        },
+        {
             "url": "/thanks",
             "title": "Fin",
             "visible": false,
             "exact": false
         }
     ]
-    
-  }
+}
