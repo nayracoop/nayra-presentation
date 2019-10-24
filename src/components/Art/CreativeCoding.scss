@@ -1,8 +1,11 @@
 @import '../../assets/styles/base';
+$image-path:'../../assets/img/';
+
 
 
 /*CREATIVE CODING*/
 
 .layout-creativeCoding .inner-container{
     @include layout($two-columns,"", $orange-dark);
+    background-image:url($image-path + $grid_background); 
 }
