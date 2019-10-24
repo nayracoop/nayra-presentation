@@ -34,7 +34,8 @@
 
 /*GENERAL*/
 body {
-    font-family: $text;
+    font: 400 100%/1.375 $text;
+    color: $white;
 }
 
 /*NAVBAR*/
@@ -82,7 +83,7 @@ body {
 
 /* SPLASH */
 
-.brand {
+.intro {
     background-color: $black;
 
     canvas {
@@ -94,9 +95,28 @@ body {
         @include logo(8rem, $white);
         position: absolute;
         top: 50%;
-        margin-top: -1em;
+        margin-top: -1.5em;
         width: 100%;
         text-align: center;
+    }
+
+    .card {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: 4em auto 0;
+        max-width: 500px;
+        text-align: center;
+
+        p {
+            font-weight: 300;
+            font-size: 1.25em;
+            &.title {
+                font-size: 1.5em;
+                font-weight: 500;
+            }
+        }
     }
 }
 
