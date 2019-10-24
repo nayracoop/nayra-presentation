@@ -4,15 +4,18 @@ import { withRouter } from 'react-router'
 
 import './App.scss';
 import texts from '../content/content';
-
 import Nav from '../components/Nav/Nav'
 import Intro from '../components/Intro/Intro';
-import Cover from '../components/Cover/Cover';
 import Team from '../components/About/Team';
+import Cooperativism from '../components/Cooperativism/Cooperativism';
+import Facttic from '../components/Cooperativism/Facttic';
+import Fit from '../components/Cooperativism/Fit';
+import CreativeCoding from '../components/Art/CreativeCoding';
+import SoftwareIndustry from '../components/SoftwareIndustry/SoftwareIndustry';
 
 class App extends Component {
 
-  componentDidMount () {
+  componentDidMount() {
     window.addEventListener('keydown', this.keyDown);
   }
 
@@ -30,7 +33,7 @@ class App extends Component {
       this.prevScreen();
     }
   }
-  
+
   nextScreen = () => {
     if(this.state.currentPage < this.state.navigation.length-1) {
       const currentPage = this.state.currentPage + 1;
@@ -46,7 +49,7 @@ class App extends Component {
       this.props.history.push(this.state.navigation[this.state.currentPage].url);
     }
   }
-  
+
   render() {
     return (
       <div className="App">

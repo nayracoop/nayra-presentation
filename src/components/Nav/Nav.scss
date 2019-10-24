@@ -3,7 +3,6 @@
 /*NAVBAR*/
 
 .navBar {
-
   display: grid;
   align-items: center;
   position: fixed;
@@ -11,9 +10,7 @@
   bottom:0;
   z-index: 100;
 
-  nav {
-
-    
+  nav { 
     text-align: left;
     
     overflow: hidden;

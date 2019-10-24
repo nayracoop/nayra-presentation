@@ -1,0 +1,11 @@
+@import '../../assets/styles/base';
+$image-path:'../../assets/img/';
+
+
+/*SOFTWARE INDUSTRY*/
+
+.layout-softwareIndustry {
+    @include layout($two-columns,"", $orange-light);
+    background-image:url($image-path + $grid_background); 
+}
+

@@ -1,17 +1,15 @@
 import React from 'react'
 import TeamMember from './TeamMember'
+import Content from '../../content/content.json'
+import Romi from '../../assets/img/romi.svg'
+import Nacho from '../../assets/img/nacho.svg'
+import Tobi from '../../assets/img/tobi.svg'
 
 const team = (props) => {
-    return(
+    return (
         <div className="layout-team">
             <div className="inner-container">
-                <TeamMember name="nombre del member" bio="acá va una bio medio corta de cada une de nosotres. Pueden ser uno o dos parrafos que digan que hacemos y cosas como esas." info="y aca va una info extra para que quede lindo. Mas corta que la Bio."/>
-            </div>
-            <div className="inner-container">
-                <TeamMember name="nombre del member" bio="acá va una bio medio corta de cada une de nosotres. Pueden ser uno o dos parrafos que digan que hacemos y cosas como esas." info="y aca va una info extra para que quede lindo. Mas corta que la Bio."/>
-            </div>
-            <div className="inner-container">
-                <TeamMember name="nombre del member" bio="acá va una bio medio corta de cada une de nosotres. Pueden ser uno o dos parrafos que digan que hacemos y cosas como esas." info="y aca va una info extra para que quede lindo. Mas corta que la Bio."/>
+                <TeamMember name={Content.members[0].name} bio={Content.members[0].bio} info={Content.members[0].info} image={Romi} />
             </div>
         </div>
     );

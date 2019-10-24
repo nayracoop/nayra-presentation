@@ -74,27 +74,3 @@ body {
         padding-top: $text-padding;
     }
 }
-
-/*TEAM*/
-
-.layout-team {
-    @include layout($three-columns,"", $black);
-    background-image: $grid_background; 
-
-}
-
-.teamMember {
-    color: $white;
-
-    .memberPicture{
-        width:200px;
-        height: 200px;
-        border-radius: 50%;
-        background: $orange-dark;
-        margin: 0 auto;
-
-    }
-    .name {
-        @include main-title (2rem, $white)
-    }
-}

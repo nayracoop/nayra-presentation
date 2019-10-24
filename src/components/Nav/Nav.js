@@ -6,13 +6,13 @@ const Nav = (props) => {
 
     let options = null;
     console.log(props)
-    if(props.options) {
+    if (props.options) {
         options = props.options.map(opt => {
             return opt.visible ? <li><NavLink to={opt.url} exact>{opt.title}</NavLink></li> : null;
         })
     }
 
-    return(options ?
+    return (options ?
         <div className="navBar">
             <nav>
                 <ul>
@@ -21,6 +21,6 @@ const Nav = (props) => {
             </nav>
         </div> : null
     );
-} 
+}
 
 export default React.memo(Nav)
