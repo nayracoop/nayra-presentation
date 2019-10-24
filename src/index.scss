@@ -1,36 +1,4 @@
-@import './variables';
-
-/*MIXINS*/
-
-@mixin logo($size, $color) {
-    font-family: $display;
-    font-size: $size;
-    color: $color;
-    text-transform: lowercase;
-    letter-spacing: .01em;
-    font-weight: 500;
-}
-
-@mixin main-title($size, $color) {
-    font-family: $display;
-    font-size: $size;
-    color: $color;
-}
-
-@mixin layout ($columns, $rows, $background-color) {
-    height:100vh;
-    padding:2%;
-    padding-left:4%;
-    display: grid;
-    grid-template-columns:$columns;
-    grid-template-rows:$rows;
-    background-color: $background-color;
-}
-
-@mixin flex($justify) {
-    display:flex;
-    justify-content: $justify;
-}
+@import './assets/styles/base';
 
 /*GENERAL*/
 body {
@@ -81,7 +49,7 @@ body {
     }
 }
 
-/* SPLASH */
+/* INTRO */
 
 .intro {
     background-color: $black;
@@ -105,7 +73,7 @@ body {
         top: 50%;
         left: 0;
         right: 0;
-        margin: 4em auto 0;
+        margin: 6em auto 0;
         max-width: 500px;
         text-align: center;
 

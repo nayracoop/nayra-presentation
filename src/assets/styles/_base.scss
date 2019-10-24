@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Saira:400,500|Work+Sans:300,400&display=swap');
+
+/*COLORS*/
+$black:#04080d;
+$white:#dedede;
+$grey-light:#a5a5a5;
+$grey-dark:#3e3d3d;
+$grey-medium:#656565;
+$orange-dark:#ee3d06;
+$orange-light: #f16439;
+$yellow:#ff9d15;
+$green:#18c59e;
+$blue:#04232e;
+
+/*TYPOGRAPHY*/
+$display:'Saira', sans-serif;
+$text: 'Work Sans', sans-serif;
+
+/*LAYOUT*/
+$two-columns: 1fr 1fr;
+$three-columns: 1fr 1fr 1fr;
+$two-rows:1fr 1fr;
+$three-rows: 1fr 1fr 1fr;
+$one-fifth:20% 80%;
+
+/*BACKGROUNDS*/
+$grid-background:url('./assets/img/fondo_transparente.png');
+
+/*PADDINGS - MARGINS*/
+$text-padding: 2%;
+
+/*MIXINS*/
+
+@mixin logo($size, $color) {
+  font-family: $display;
+  font-size: $size;
+  color: $color;
+  text-transform: lowercase;
+  letter-spacing: .01em;
+  font-weight: 500;
+}
+
+@mixin main-title($size, $color) {
+  font-family: $display;
+  font-size: $size;
+  color: $color;
+}
+
+@mixin layout ($columns, $rows, $background-color) {
+  height:100vh;
+  padding:2%;
+  padding-left:4%;
+  display: grid;
+  grid-template-columns:$columns;
+  grid-template-rows:$rows;
+  background-color: $background-color;
+}
+
+@mixin flex($justify) {
+  display:flex;
+  justify-content: $justify;
+}
