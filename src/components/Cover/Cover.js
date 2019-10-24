@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 import { Route } from 'react-router-dom';
+import './Cover.scss';
 
 const cover = (props) => {
-    return(
+    return (
         <div className="layout-cover">
             <div className="inner-container">
                 <p className="cover-pageNumber">{props.pageNumber}</p>

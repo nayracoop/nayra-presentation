@@ -3,7 +3,7 @@ $image-path:'../../assets/img/';
 
 /*TEAM*/
 
-.layout-team {
+.layout-team .inner-container{
     @include layout($three-columns,"", $black);
     background-image:url($image-path + $grid_background); 
 }
@@ -11,7 +11,6 @@ $image-path:'../../assets/img/';
 .teamMember {
     color: $white;
     padding: 10%;
-
     .memberPicture{
         display: grid;
         align-items: center;

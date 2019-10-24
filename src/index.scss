@@ -1,4 +1,5 @@
 @import './assets/styles/base';
+$img-path:'./assets/img/';
 
 /*GENERAL*/
 body {
@@ -8,6 +9,23 @@ body {
 
 * {
     box-sizing: border-box;
+}
+.layout{               
+    .info{
+        height:90%;
+        border: 1px solid $black;
+        display: grid;
+        align-content: center;
+
+        .title{
+            @include main-title(5rem, $black)
+        }
+        .text{
+            color: $black;
+            font-size: 1.5rem;
+            padding-top: 2rem;;
+        }
+    }
 }
 
 /* INTRO */
@@ -46,31 +64,5 @@ body {
                 font-weight: 500;
             }
         }
-    }
-}
-
-/*COVER*/
-
-.layout-cover {
-    @include layout("", $one-fifth, $black);
-    background-image: $grid_background; 
-
-    .inner-container {
-        height: 90vh;
-        border: 1px solid $white;
-    }
-
-    .cover-pageNumber {
-        @include main-title(10rem, $white);
-        @include flex(flex-end);
-        padding-right: $text-padding;
-        border-bottom:1px solid $white;
-    }
-
-    .cover-title {
-        @include flex(flex-end);
-        @include main-title(5rem, $white);
-        padding-right: $text-padding;
-        padding-top: $text-padding;
     }
 }
