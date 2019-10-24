@@ -1,0 +1,8 @@
+@import '../../assets/styles/base';
+
+
+/*CREATIVE CODING*/
+
+.layout-creativeCoding {
+    @include layout($two-columns,"", $orange-dark);
+}

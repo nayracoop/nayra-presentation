@@ -24,7 +24,7 @@ $three-rows: 1fr 1fr 1fr;
 $one-fifth:20% 80%;
 
 /*BACKGROUNDS*/
-$grid-background:url('./assets/img/fondo_transparente.png');
+$grid-background:'fondo_transparente.png';
 
 /*PADDINGS - MARGINS*/
 $text-padding: 2%;
@@ -54,6 +54,7 @@ $text-padding: 2%;
   grid-template-columns:$columns;
   grid-template-rows:$rows;
   background-color: $background-color;
+  align-items: center ;
 }
 
 @mixin flex($justify) {

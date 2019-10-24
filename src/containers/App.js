@@ -3,14 +3,17 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import './App.scss';
 import texts from '../content/content';
-
 import Nav from '../components/Nav/Nav'
 import Intro from '../components/Intro/Intro';
-import Cover from '../components/Cover/Cover';
 import Team from '../components/About/Team';
+import Cooperativism from '../components/Cooperativism/Cooperativism';
+import Facttic from '../components/Cooperativism/Facttic';
+import Fit from '../components/Cooperativism/Fit';
+import CreativeCoding from '../components/Art/CreativeCoding';
+import SoftwareIndustry from '../components/SoftwareIndustry/SoftwareIndustry';
 
 class App extends Component {
-  
+
   render() {
     return (
       <BrowserRouter>
@@ -20,10 +23,18 @@ class App extends Component {
             <Intro title={texts.intro.title} description={texts.intro.description} date={texts.intro.date} />
           </Route>
           <Route path="/about" exact>
-            <Cover pageNumber="01" title="¿Quienes Somos?" />
+            <Team />
           </Route>
-          <Route path="/about/team" exact>
-            <Team pageNumber="01" title="¿Quienes Somos?" />
+          <Route path="/cooperativism" exact>
+            <Cooperativism />
+            <Facttic />
+            <Fit />
+          </Route>
+          <Route path="/art">
+            <CreativeCoding />
+          </Route>
+          <Route path="/industry">
+            <SoftwareIndustry />
           </Route>
         </div>
       </BrowserRouter>

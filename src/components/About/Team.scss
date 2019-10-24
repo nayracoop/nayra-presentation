@@ -1,0 +1,40 @@
+@import '../../assets/styles/base';
+$image-path:'../../assets/img/';
+
+/*TEAM*/
+
+.layout-team {
+    @include layout($three-columns,"", $black);
+    background-image:url($image-path + $grid_background); 
+}
+
+.teamMember {
+    color: $white;
+    padding: 10%;
+
+    .memberPicture{
+        display: grid;
+        align-items: center;
+        width:200px;
+        height: 200px;
+        border: 2px solid $white;
+        border-radius: 50%;
+        margin: 0 auto;
+
+        img{
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+
+    .memberInfo{
+        margin-top: 50px;
+        .name {
+            margin: 50px;
+        }
+    }
+
+    .name {
+        @include main-title (2rem, $white);
+    }
+}

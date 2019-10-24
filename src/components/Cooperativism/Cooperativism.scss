@@ -1,0 +1,18 @@
+@import '../../assets/styles/base';
+$image-path:'../../assets/img/';
+
+
+/*COOPERATIVISM*/
+
+.layout-cooperativism {
+    @include layout($two-columns,"", $green);
+    background-image:url($image-path + $grid_background); 
+}
+
+.layout-cooperativism.facttic{
+    background-color: $black;
+}
+
+.layout-cooperativism.fit{
+    background-color: $yellow;
+}
