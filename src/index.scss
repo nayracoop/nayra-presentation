@@ -10,6 +10,40 @@ body {
 * {
     box-sizing: border-box;
 }
+.layout{               
+    .info{
+        height:90%;
+        border: 1px solid $white;
+        display: grid;
+        align-content: center;  
+
+        .title{
+            @include main-title(5rem, $white);
+        }
+        .text{
+            font-size: 1.5rem;
+            padding-top: 2rem;;
+        }
+    }
+    .image{
+        height:90%;
+        background-color:$black;
+    }
+
+}
+
+.layout.fit,
+.layout.cooperativism{
+    .info{
+        color:$black;
+        border-color:$black;
+
+        .title{
+            color: $black;
+        }
+    }
+}
+
 
 /* INTRO */
 

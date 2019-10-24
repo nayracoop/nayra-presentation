@@ -1,18 +1,18 @@
 import React from 'react'
-import './Cooperativism.scss';
+import './Team.scss';
 
-const Facttic = (props) => {
+const nayra = (props) => {
     return (
-        <div className="layout layout-cooperativism facttic">
+        <div className="layout layout-nayra">
             <div className="inner-container">
-                <div className="image">{props.image}</div>
                 <div className="info">
                     <h2 className="title">{props.title}</h2>
                     <p className="text">{props.text}</p>
                 </div>
+                <div className="image">{props.image}</div>
             </div>
         </div>
     );
 }
 
-export default React.memo(Facttic)
+export default React.memo(nayra)

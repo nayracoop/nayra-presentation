@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import { withRouter } from 'react-router'
+import { withRouter } from 'react-router';
 
 import './App.scss';
 import texts from '../content/content';
-import Nav from '../components/Nav/Nav'
+import Nav from '../components/Nav/Nav';
 import Intro from '../components/Intro/Intro';
 import Team from '../components/About/Team';
+import Nayra from '../components/About/Nayra';
 import Cover from '../components/Cover/Cover'
 import Cooperativism from '../components/Cooperativism/Cooperativism';
 import Facttic from '../components/Cooperativism/Facttic';
@@ -60,21 +61,36 @@ class App extends Component {
         </Route>
         <Route path="/about" exact>
           <Cover pageNumber="01" title="¿Quienes Somos?" />
+        </Route>
+        <Route path="/about/team" exact>
           <Team />
+        </Route>
+        <Route path="/about/nayra" exact>
+          <Nayra title={texts.nayra.title} text={texts.nayra.text} img="" />
         </Route>
         <Route path="/cooperativism" exact>
           <Cover pageNumber="02" title="Cooperativas" />
-          <Cooperativism />
-          <Facttic />
-          <Fit />
         </Route>
-        <Route path="/creativeCoding" exact>
+        <Route path="/cooperativism/how" exact>
+          <Cooperativism title={texts.cooperativism.title} text={texts.cooperativism.text} img="" />
+        </Route>
+        <Route path="/cooperativism/facttic" exact>
+          <Facttic title={texts.facttic.title} text={texts.facttic.text} img="" />
+        </Route>
+        <Route path="/cooperativism/fit" exact>
+          <Fit title={texts.fit.title} text={texts.fit.text} img="" />
+        </Route>
+        <Route path="/art" exact>
           <Cover pageNumber="03" title="Artes Electrónicas" />
-          <CreativeCoding />
+        </Route>
+        <Route path="/art/creativeCoding" exact>
+          <CreativeCoding title={texts.creativeCoding.title} text={texts.creativeCoding.text} img="" />
         </Route>
         <Route path="/industry" exact>
           <Cover pageNumber="04" title="Software" />
-          <SoftwareIndustry />
+        </Route>
+        <Route path="/industry/arg" exact>
+          <SoftwareIndustry title={texts.software.title} text={texts.software.text} img="" />
         </Route>
         <Route path="/thanks" exact>
           <Intro title={texts.end.title} description={texts.end.description} />

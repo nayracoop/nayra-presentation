@@ -4,7 +4,7 @@ $image-path:'../../assets/img/';
 
 /*SOFTWARE INDUSTRY*/
 
-.layout-softwareIndustry {
+.layout-softwareIndustry .inner-container{
     @include layout($two-columns,"", $orange-light);
     background-image:url($image-path + $grid_background); 
 }

@@ -1,0 +1,102 @@
+{
+    "intro": {
+        "title": "Charla de divulgación",
+        "description": "Colegio Las Marías",
+        "date": "2019"
+    },
+    "end": {
+        "title": "Gracias :)",
+        "description": "nayra.coop | facttic.org.ar | facttic.org.ar/fit"
+    },
+    "cooperativism": {
+        "title": "¿Qué es una Cooperativa?",
+        "text": "Empresas democráticas"
+    },
+    "facttic": {
+        "title": "¿Qué es FACTTIC?",
+        "text": "FACTTIC es blablablabla saraza"
+    },
+    "fit": {
+        "title": "¿Qué es FIT?",
+        "text": "El FIT es blablablabla saraza"
+    },
+    "creativeCon": {
+        "title": "¿Qué es FIT?",
+        "text": "El FIT es blablablabla saraza"
+    },    
+    
+    "navigation": [
+        {
+            "url": "/",
+            "title": "Presentación",
+            "visible": true
+        },
+        {
+            "url": "/about",
+            "title": "Quiénes somos",
+            "visible": true
+        },
+        {
+            "url": "/about/team",
+            "title": "Equipo",
+            "visible": false
+        },
+        {
+            "url": "/cooperativism",
+            "title": "Cooperativas",
+            "visible": true
+        },
+        {
+            "url": "/cooperativism/how",
+            "title": "Cooperativas",
+            "visible": false
+        },
+        {
+            "url": "/cooperativism/facttic",
+            "title": "Cooperativas",
+            "visible": false
+        },
+        {
+            "url": "/cooperativism/fit",
+            "title": "Cooperativas",
+            "visible": false
+        },
+        {
+            "url": "/art",
+            "title": "Artes Electrónicas",
+            "visible": true
+        },
+        {
+            "url": "/art/creativeCoding",
+            "title": "Creative Coding",
+            "visible": false
+        },
+        {
+            "url": "/industry",
+            "title": "Software",
+            "visible": true
+        },
+        {
+            "url": "/thanks",
+            "title": "Fin",
+            "visible": false
+        }
+    ],
+    "members": [
+        {
+            "name": "Romi",
+            "bio": "La bio de romi",
+            "info": "información adicional de Romi"
+        },
+        {
+            "name": "Romi",
+            "bio": "La bio de romi",
+            "info": "información adicional de Romi"
+        },
+        {
+            "name": "Romi",
+            "bio": "La bio de romi",
+            "info": "información adicional de Romi"
+        }
+    ]
+}

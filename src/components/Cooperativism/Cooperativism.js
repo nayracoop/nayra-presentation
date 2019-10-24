@@ -3,10 +3,13 @@ import './Cooperativism.scss';
 
 const Cooperativism = (props) => {
     return (
-        <div className="layout-cooperativism">
+        <div className="layout layout-cooperativism cooperativism">
             <div className="inner-container">
-                <div classname="text"><p>KFLASHFKJDSABFJKDSBVKJS.DHKFCSABKJFBSAD</p></div>
-                <div classname="image">jdaksldhflaksfhkasjhfkdslhfsldahfaslikhg</div>
+                <div className="info">
+                    <h2 className="title">{props.title}</h2>
+                    <p className="text">{props.text}</p>
+                </div>
+                <div className="image">{props.image}</div>
             </div>
         </div>
     );
