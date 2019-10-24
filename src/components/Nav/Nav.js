@@ -2,18 +2,25 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Nav.scss';
 
-const nav = (props) => {
-    return(
+const Nav = (props) => {
+
+    let options = null;
+    console.log(props)
+    if(props.options) {
+        options = props.options.map(opt => {
+            return opt.visible ? <li><NavLink to={opt.url} exact>{opt.title}</NavLink></li> : null;
+        })
+    }
+
+    return(options ?
         <div className="navBar">
             <nav>
                 <ul>
-                    <li><NavLink to="/" exact>Presentación</NavLink></li>
-                    <li><NavLink to="/about" exact>Quiénes somos</NavLink></li>
-                    <li><NavLink to="/art" exact>Artes</NavLink></li>
+                    {options}
                 </ul>
             </nav>
-        </div>
+        </div> : null
     );
 } 
 
-export default React.memo(nav)
+export default React.memo(Nav)
