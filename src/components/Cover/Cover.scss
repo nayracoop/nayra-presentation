@@ -1,0 +1,28 @@
+@import '../../assets/styles/base';
+$image-path:'../../assets/img/';
+
+/*COVER*/
+
+.layout-cover {
+    @include layout("", "", $black);
+    background-image: url($image-path + $grid_background); 
+
+    .inner-container {
+        height: 90vh;
+        border: 1px solid $white;
+    }
+
+    .cover-pageNumber {
+        @include main-title(10rem, $white);
+        @include flex(flex-end);
+        padding-right: $text-padding;
+        border-bottom:1px solid $white;
+    }
+
+    .cover-title {
+        @include flex(flex-end);
+        @include main-title(5rem, $white);
+        padding-right: $text-padding;
+        padding-top: $text-padding;
+    }
+}
