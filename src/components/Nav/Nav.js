@@ -7,7 +7,7 @@ const Nav = (props) => {
     let options = null;
     if (props.options) {
         options = props.options.map(opt => {
-            let link = opt.exact ? <NavLink to={opt.url}>{opt.title}</NavLink> : <NavLink to={opt.url}>{opt.title}</NavLink>
+            let link = opt.exact ? <NavLink to={opt.url} exact>{opt.title}</NavLink> : <NavLink to={opt.url}>{opt.title}</NavLink>
             return opt.visible ? <li>{link}</li> : null;
         })
     }
