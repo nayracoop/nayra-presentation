@@ -84,6 +84,8 @@ class App extends Component {
         </Route>
         <Route path="/industry" exact>
           <Cover pageNumber="04" title="Software" />
+        </Route>
+        <Route path="/industry/arg" exact>
           <SoftwareIndustry title={texts.software.title} text={texts.software.text} img="" />
         </Route>
         <Route path="/thanks" exact>
