@@ -7,6 +7,7 @@ import texts from '../content/content';
 import Nav from '../components/Nav/Nav'
 import Intro from '../components/Intro/Intro';
 import Team from '../components/About/Team';
+import Cover from '../components/Cover/Cover';
 import Cooperativism from '../components/Cooperativism/Cooperativism';
 import Facttic from '../components/Cooperativism/Facttic';
 import Fit from '../components/Cooperativism/Fit';
@@ -57,7 +58,7 @@ class App extends Component {
         <Route path="/" exact>
           <Intro title={texts.intro.title} description={texts.intro.description} date={texts.intro.date} />
         </Route>
-        <Route path="/about" exact>
+        <Route path="/about">
           <Cover pageNumber="01" title="¿Quienes Somos?" />
         </Route>
         <Route path="/about/team" exact>
