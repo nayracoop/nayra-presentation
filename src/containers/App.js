@@ -7,7 +7,8 @@ import texts from '../content/content';
 import Nav from '../components/Nav/Nav';
 import Intro from '../components/Intro/Intro';
 import Team from '../components/About/Team';
-import Cover from '../components/Cover/Cover';
+import Nayra from '../components/About/Nayra';
+import Cover from '../components/Cover/Cover'
 import Cooperativism from '../components/Cooperativism/Cooperativism';
 import Facttic from '../components/Cooperativism/Facttic';
 import Fit from '../components/Cooperativism/Fit';
@@ -63,6 +64,9 @@ class App extends Component {
         </Route>
         <Route path="/about/team" exact>
           <Team members={texts.members} />
+        </Route>
+        <Route path="/about/nayra" exact>
+          <Nayra title={texts.nayra.title} text={texts.nayra.text} img="" />
         </Route>
         <Route path="/cooperativism" exact>
           <Cover pageNumber="02" title="Cooperativas" />
