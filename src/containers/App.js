@@ -14,7 +14,7 @@ import SoftwareIndustry from '../components/SoftwareIndustry/SoftwareIndustry';
 
 class App extends Component {
 
-  componentDidMount () {
+  componentDidMount() {
     window.addEventListener('keydown', this.keyDown);
   }
 
@@ -23,10 +23,10 @@ class App extends Component {
   }
 
   keyDown = (e) => {
-    if(e.key === 'ArrowRight' || e.key === ' ' || e.key === 'ArrowDown') this.nextScreen();
-    else if(e.key === 'Backspace' || e.key === 'ArrowLeft' || e.key === 'ArrowUp') this.prevScreen();
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'ArrowDown') this.nextScreen();
+    else if (e.key === 'Backspace' || e.key === 'ArrowLeft' || e.key === 'ArrowUp') this.prevScreen();
   }
-  
+
   nextScreen = () => {
     console.log('next');
   }
@@ -34,7 +34,7 @@ class App extends Component {
   prevScreen = () => {
     console.log('prev');
   }
-  
+
   render() {
     return (
       <BrowserRouter>
@@ -52,7 +52,7 @@ class App extends Component {
             <Fit />
           </Route>
           <Route path="/thanks" exact>
-            <Intro title={texts.end.title} description={texts.end.description} />
+
           </Route>
         </div>
       </BrowserRouter>
