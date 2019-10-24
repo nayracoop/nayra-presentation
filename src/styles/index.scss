@@ -2,6 +2,15 @@
 
 /*MIXINS*/
 
+@mixin logo($size, $color) {
+    font-family: $display;
+    font-size: $size;
+    color: $color;
+    text-transform: lowercase;
+    letter-spacing: .01em;
+    font-weight: 500;
+}
+
 @mixin main-title($size, $color) {
     font-family: $display;
     font-size: $size;
@@ -71,6 +80,25 @@ body {
     }
 }
 
+/* SPLASH */
+
+.brand {
+    background-color: $black;
+
+    canvas {
+        display: block;
+        margin: 0;
+    }
+
+    h1 {
+        @include logo(8rem, $white);
+        position: absolute;
+        top: 50%;
+        margin-top: -1em;
+        width: 100%;
+        text-align: center;
+    }
+}
 
 /*COVER*/
 

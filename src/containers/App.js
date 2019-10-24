@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import './App.scss';
 import Nav from '../components/Nav/Nav'
+import Brand from '../components/Brand/Brand';
 import Cover from '../components/Cover/Cover';
 import Team from '../components/About/Team';
 class App extends Component {
@@ -12,7 +13,7 @@ class App extends Component {
         <div className="App">
           <Nav />
           <Route path="/" exact>
-            <Cover pageNumber="01" title="¿Quienes Somos?" />
+            <Brand/>
           </Route>
           <Route path="/about" exact>
             <Team pageNumber="01" title="¿Quienes Somos?" />
