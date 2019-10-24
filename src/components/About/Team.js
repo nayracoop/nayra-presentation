@@ -10,6 +10,8 @@ const team = (props) => {
         <div className="layout-team">
             <div className="inner-container">
                 <TeamMember name={Content.members[0].name} bio={Content.members[0].bio} info={Content.members[0].info} image={Romi} />
+                <TeamMember name={Content.members[0].name} bio={Content.members[0].bio} info={Content.members[0].info} image={Romi} />
+                <TeamMember name={Content.members[0].name} bio={Content.members[0].bio} info={Content.members[0].info} image={Romi} />
             </div>
         </div>
     );
