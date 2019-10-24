@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import { withRouter } from 'react-router';
 
 import './App.scss';
-import texts from '../content/content';
+import texts from '../content/content.example';
 import Nav from '../components/Nav/Nav';
 import Intro from '../components/Intro/Intro';
 import Team from '../components/About/Team';
