@@ -6,47 +6,8 @@ body {
     color: $white;
 }
 
-/*NAVBAR*/
-
-.navBar {
-    position:fixed;
-    height: 100vh;
-    padding:2% 1%;
-    text-align: left;
-
-    ul {
-        padding-left: 10px;;
-
-        li {
-            width:10px;
-            height:10px;
-            background: $white;
-            overflow: hidden;
-            margin-bottom: 30px;
-            transition: all .5s ease-in-out;
-            font-size: 2rem;
-            font-family: $display;
-
-            &:hover {
-                padding-left: 10px;
-                overflow: visible; 
-                width: 300px;
-                height: 30px;
-                background-color: $orange-dark;
-            }
-
-            &:hover a {
-                color: $white;
-            }
-
-            a {
-                text-decoration: none;
-                width: 100%;
-                height: 100%;
-                color: transparent; 
-            }
-        }
-    }
+* {
+    box-sizing: border-box;
 }
 
 /* INTRO */

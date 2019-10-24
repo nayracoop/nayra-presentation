@@ -20,6 +20,9 @@ class App extends Component {
             <Intro title={texts.intro.title} description={texts.intro.description} date={texts.intro.date} />
           </Route>
           <Route path="/about" exact>
+            <Cover pageNumber="01" title="¿Quienes Somos?" />
+          </Route>
+          <Route path="/about/team" exact>
             <Team pageNumber="01" title="¿Quienes Somos?" />
           </Route>
         </div>

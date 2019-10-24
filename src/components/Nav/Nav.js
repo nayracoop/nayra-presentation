@@ -1,16 +1,18 @@
 import React from 'react';
-import {Link, NavLink } from 'react-router-dom';
-
+import { NavLink } from 'react-router-dom';
+import './Nav.scss';
 
 const nav = (props) => {
     return(
-        <nav className="navBar">
-            <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><NavLink to="/about" exact>Quiénes somos</NavLink></li>
-            <li><NavLink to="/art" exact>Artes</NavLink></li>
-            </ul>
-        </nav>
+        <div className="navBar">
+            <nav>
+                <ul>
+                    <li><NavLink to="/" exact>Presentación</NavLink></li>
+                    <li><NavLink to="/about" exact>Quiénes somos</NavLink></li>
+                    <li><NavLink to="/art" exact>Artes</NavLink></li>
+                </ul>
+            </nav>
+        </div>
     );
 } 
 

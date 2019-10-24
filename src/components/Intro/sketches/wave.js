@@ -14,7 +14,7 @@ const sketch = p5 => {
   let gb = 62;
   let bb = 7;
 
-  let quality = 36;
+  let quality = 15;
   const Q = quality + 1;
 
   p5.setup = () => {
@@ -48,11 +48,11 @@ const sketch = p5 => {
       p5.endShape();
     }
     count += 1;
-    if(p5.millis() - time > 40 && quality > 1) {
+    if(p5.millis() - time > 60 && quality > 1) {
       quality--;
-    } else if(p5.millis() - time < 20 && quality < Q-1) {
+    } /*else if(p5.millis() - time < 20 && quality < Q-1) {
       quality++;
-    }
+    }*/
   }
 
 }
