@@ -41,10 +41,28 @@ $image-path:'../../assets/img/';
         margin-top: 50px;
         .name {
             margin: 50px;
+            margin-bottom: 1em;
+        }
+
+        p {
+            font-size: 1.25em;
+        }
+        
+        ul {
+            margin-top: 1em;
+        }
+
+        li {
+            font-size: 1.25em;
+            font-weight: 300;
         }
     }
 
     .name {
         @include main-title (2rem, $white);
+    }
+
+    ul {
+        list-style: disc;
     }
 }

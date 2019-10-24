@@ -10,21 +10,21 @@
     },
     "members": [
       {
-          "name": "Romina",
-          "bio": "Socia de Nayra",
-          "info": "información adicional de Romi",
+          "name": "Romi",
+          "bio": "Diseñadora UX / Desarrolladora frond-end",
+          "info": [ "Socia de Nayra", "Artes Electrónicas", "Músca" ],
           "icon": "romi.svg"
       },
       {
-          "name": "Tobías",
-          "bio": "Socio de Nayra",
-          "info": "información adicional de Romi",
+          "name": "Tobi",
+          "bio": "Desarrollador front-end",
+          "info": [ "Socio de Nayra", "Viajes", "Ciclismo" ],
           "icon": "tobi.svg"
       },
       {
-          "name": "Ignacio",
-          "bio": "Socio de Nayra",
-          "info": "información adicional de Romi",
+          "name": "Nacho",
+          "bio": "Desarrollador interactivo",
+          "info": [ "Socio de Nayra", "Artes Electrónicas", "Natación" ],
           "icon": "nacho.svg"
       }
     ],
