@@ -20,6 +20,11 @@ $image-path:'../../assets/img/';
 }
 
 .teamMember {
+
+    &:nth-child(1) .memberPicture { border: 0; background-color: $orange-dark; }
+    &:nth-child(2) .memberPicture { border: 0; background-color: $yellow; }
+    &:nth-child(3) .memberPicture { border: 0; background-color: $green; }
+
     color: $white;
     padding: 10%;
     .memberPicture{
@@ -47,7 +52,7 @@ $image-path:'../../assets/img/';
         p {
             font-size: 1.25em;
         }
-        
+
         ul {
             margin-top: 1em;
         }

@@ -9,24 +9,24 @@
       "title": "Quiénes Somos"
     },
     "members": [
-      {
-          "name": "Romi",
-          "bio": "Diseñadora UX / Desarrolladora frond-end",
-          "info": [ "Socia de Nayra", "Artes Electrónicas", "Músca" ],
-          "icon": "romi.svg"
-      },
-      {
-          "name": "Tobi",
-          "bio": "Desarrollador front-end",
-          "info": [ "Socio de Nayra", "Viajes", "Ciclismo" ],
-          "icon": "tobi.svg"
-      },
-      {
-          "name": "Nacho",
-          "bio": "Desarrollador interactivo",
-          "info": [ "Socio de Nayra", "Artes Electrónicas", "Natación" ],
-          "icon": "nacho.svg"
-      }
+        {
+            "name": "Tobi",
+            "bio": "Desarrollador front-end",
+            "info": [ "Socio de Nayra", "Viajes", "Ciclismo" ],
+            "icon": "tobi.svg"
+        },
+        {
+            "name": "Romi",
+            "bio": "Diseñadora UX / Desarrolladora frond-end",
+            "info": [ "Socia de Nayra", "Artes Electrónicas", "Música" ],
+            "icon": "romi.svg"
+        },
+        {
+            "name": "Nacho",
+            "bio": "Desarrollador interactivo",
+            "info": [ "Socio de Nayra", "Artes Electrónicas", "Natación" ],
+            "icon": "nacho.svg"
+        }
     ],
     "nayra": {
       "title": "Bla bla",
