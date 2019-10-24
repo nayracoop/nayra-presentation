@@ -14,11 +14,32 @@ import SoftwareIndustry from '../components/SoftwareIndustry/SoftwareIndustry';
 
 class App extends Component {
 
+  componentDidMount () {
+    window.addEventListener('keydown', this.keyDown);
+  }
+
+  state = {
+    navigation: texts.navigation
+  }
+
+  keyDown = (e) => {
+    if(e.key === 'ArrowRight' || e.key === ' ' || e.key === 'ArrowDown') this.nextScreen();
+    else if(e.key === 'Backspace' || e.key === 'ArrowLeft' || e.key === 'ArrowUp') this.prevScreen();
+  }
+  
+  nextScreen = () => {
+    console.log('next');
+  }
+
+  prevScreen = () => {
+    console.log('prev');
+  }
+  
   render() {
     return (
       <BrowserRouter>
         <div className="App">
-          <Nav />
+          <Nav options={this.state.navigation} />
           <Route path="/" exact>
             <Intro title={texts.intro.title} description={texts.intro.description} date={texts.intro.date} />
           </Route>
@@ -30,11 +51,8 @@ class App extends Component {
             <Facttic />
             <Fit />
           </Route>
-          <Route path="/art">
-            <CreativeCoding />
-          </Route>
-          <Route path="/industry">
-            <SoftwareIndustry />
+          <Route path="/thanks" exact>
+            <Intro title={texts.end.title} description={texts.end.description} />
           </Route>
         </div>
       </BrowserRouter>
