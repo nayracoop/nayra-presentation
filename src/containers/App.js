@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import { withRouter } from 'react-router';
 
 import './App.scss';
-import texts from '../content/content';
+import texts from '../content/content.example';
 import Nav from '../components/Nav/Nav';
 import Intro from '../components/Intro/Intro';
 import Team from '../components/About/Team';
@@ -60,10 +60,10 @@ class App extends Component {
           <Intro title={texts.intro.title} description={texts.intro.description} date={texts.intro.date} />
         </Route>
         <Route path="/about" exact>
-          <Cover pageNumber="01" title="¿Quienes Somos?" />
+          <Cover pageNumber={texts.about.number} title={texts.about.title} />
         </Route>
         <Route path="/about/team" exact>
-          <Team />
+          <Team members={texts.members} />
         </Route>
         <Route path="/about/nayra" exact>
           <Nayra title={texts.nayra.title} text={texts.nayra.text} img="" />
