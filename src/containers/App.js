@@ -20,11 +20,22 @@ class App extends Component {
 
   componentDidMount() {
     window.addEventListener('keydown', this.keyDown);
+    let currentPage = this.state.navigation.findIndex((el) => { return this.props.location.pathname === el.url})
+    if(currentPage < 0) currentPage = 0;
+    this.setState({ currentPage: currentPage });
   }
 
   state = {
     navigation: texts.navigation,
     currentPage: 0
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.location !== prevProps.location) {
+      let currentPage = this.state.navigation.findIndex((el) => { return this.props.location.pathname === el.url})
+      if(currentPage < 0) currentPage = 0;
+      this.setState({ currentPage: currentPage });
+    }
   }
 
   keyDown = (e) => {
@@ -82,16 +93,13 @@ class App extends Component {
           <Fit title={texts.fit.title} text={texts.fit.text} image={require('../assets/img/' + texts.fit.img)} />
         </Route>
         <Route path="/art" exact>
-          <Cover pageNumber="03" title="Artes Electrónicas" />
+        <Cover pageNumber={texts.art.number} title={texts.art.title} />
         </Route>
         <Route path="/art/creativeCoding" exact>
           <CreativeCoding title={texts.creativeCoding.title} text={texts.creativeCoding.text} image={require('../assets/img/' + texts.creativeCoding.img)} />
         </Route>
-        <Route path="/industry" exact>
-          <Cover pageNumber="04" title="Software" />
-        </Route>
-        <Route path="/industry/arg" exact>
-          <SoftwareIndustry title={texts.software.title} text={texts.software.text} img="" />
+        <Route path="/art/electronic-arts" exact>
+          <Facttic title={texts.electronicArts.title} text={texts.electronicArts.text} img="" />
         </Route>
         <Route path="/thanks" exact>
           <Intro title={texts.end.title} description={texts.end.description} />
