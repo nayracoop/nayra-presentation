@@ -9,7 +9,7 @@ const nayra = (props) => {
                     <h2 className="title">{props.title}</h2>
                     <p className="text">{props.text}</p>
                 </div>
-                <div className="image"><img src={props.image}></img></div>
+                <div className="image"><img src={props.image} alt="" /></div>
             </div>
         </div>
     );
