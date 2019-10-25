@@ -5,32 +5,33 @@
         "date": "2019"
     },
     "about": {
-      "number": "01",
-      "title": "Quiénes Somos"
+        "number": "01",
+        "title": "Quiénes Somos"
     },
     "members": [
-      {
-          "name": "Romina",
-          "bio": "Socia de Nayra",
-          "info": "información adicional de Romi",
-          "icon": "romi.svg"
-      },
-      {
-          "name": "Tobías",
-          "bio": "Socio de Nayra",
-          "info": "información adicional de Romi",
-          "icon": "tobi.svg"
-      },
-      {
-          "name": "Ignacio",
-          "bio": "Socio de Nayra",
-          "info": "información adicional de Romi",
-          "icon": "nacho.svg"
-      }
+        {
+            "name": "Romina",
+            "bio": "Socia de Nayra",
+            "info": "información adicional de Romi",
+            "icon": "romi.svg"
+        },
+        {
+            "name": "Tobías",
+            "bio": "Socio de Nayra",
+            "info": "información adicional de Romi",
+            "icon": "tobi.svg"
+        },
+        {
+            "name": "Ignacio",
+            "bio": "Socio de Nayra",
+            "info": "información adicional de Romi",
+            "icon": "nacho.svg"
+        }
     ],
     "nayra": {
-      "title": "Bla bla",
-      "text": "Somos nmayura"
+        "title": "nayra",
+        "text": "Somos un equipo de programadorxs y artistas constituido como cooperativa de trabajo, dedicado al desarrollo de sistemas interactivos de calidad, confiables y dinámicos. Buscamos perfilarnos como actores culturales en el campo digital y contribuir con nuestro trabajo y experiencia al desarrollo de nuestra comunidad.",
+        "img": "nayres.jpg"
     },
     "end": {
         "title": "Gracias :)",
@@ -38,92 +39,91 @@
     },
     "cooperativism": {
         "title": "¿Qué es una Cooperativa?",
-        "text": "Empresas democráticas"
+        "text": "Empresas democráticas",
+        "img": "nayres.jpg"
     },
     "facttic": {
         "title": "¿Qué es FACTTIC?",
-        "text": "FACTTIC es blablablabla saraza"
+        "text": "FACTTIC es blablablabla saraza",
+        "img": "nayres.jpg"
     },
     "fit": {
         "title": "¿Qué es FIT?",
         "text": "El FIT es blablablabla saraza"
     },
     "creativeCoding": {
+        "title": "Creative Coding",
+        "text": "Creative Coding es blablablabla saraza"
+    },
+    "software": {
         "title": "¿Qué es FIT?",
         "text": "El FIT es blablablabla saraza"
-    },    
-    "software": {
-      "title": "¿Qué es FIT?",
-      "text": "El FIT es blablablabla saraza"
     },
-  
     "navigation": [
         {
             "url": "/",
             "title": "Presentación",
-            "visible": true,
-            "exact": true
+            "visible": true
         },
         {
             "url": "/about",
             "title": "Quiénes somos",
-            "visible": true,
-            "exact": false
+            "visible": true
         },
         {
             "url": "/about/team",
             "title": "Equipo",
-            "visible": false,
-            "exact": false
+            "visible": false
+        },
+        {
+            "url": "/about/nayra",
+            "title": "Equipo",
+            "visible": false
         },
         {
             "url": "/cooperativism",
             "title": "Cooperativas",
-            "visible": true,
-            "exact": false
+            "visible": true
         },
         {
             "url": "/cooperativism/how",
             "title": "Cooperativas",
-            "visible": false,
-            "exact": false
+            "visible": false
         },
         {
             "url": "/cooperativism/facttic",
             "title": "Cooperativas",
-            "visible": false,
-            "exact": false
+            "visible": false
         },
         {
             "url": "/cooperativism/fit",
             "title": "Cooperativas",
-            "visible": false,
-            "exact": false
+            "visible": false
         },
         {
             "url": "/art",
             "title": "Artes Electrónicas",
-            "visible": true,
-            "exact": false
+            "visible": true
         },
         {
             "url": "/art/creativeCoding",
             "title": "Creative Coding",
-            "visible": false,
-            "exact": false
+            "visible": false
         },
         {
             "url": "/industry",
             "title": "Software",
-            "visible": true,
-            "exact": false
+            "visible": true
+        },
+        {
+            "url": "/industry/arg",
+            "title": "Software",
+            "visible": false
         },
         {
             "url": "/thanks",
             "title": "Fin",
-            "visible": false,
-            "exact": false
+            "visible": false
         }
     ]
-    
-  }
+}

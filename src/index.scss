@@ -21,13 +21,20 @@ body {
             @include main-title(5rem, $white);
         }
         .text{
-            font-size: 1.5rem;
+            font-size: 1.3rem;
+            line-height: 2.2rem;
             padding-top: 2rem;;
+            width: 90%;
+            margin: 0 auto;
         }
     }
     .image{
         height:90%;
         background-color:$black;
+        overflow: hidden;
+        img{
+            height:100%;
+        }
     }
 
 }
