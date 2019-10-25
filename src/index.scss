@@ -34,7 +34,8 @@ body {
     }
     .image{
         height:90%;
-        overflow: hidden;
+        width:90%;
+        margin: 0 auto;
         img, video {
             height: 100%;
             width: 100%;

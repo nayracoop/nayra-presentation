@@ -20,29 +20,6 @@ $image-path:'../../assets/img/';
 }
 
 .teamMember {
-
-    &:nth-child(1){ 
-        border:1px solid $orange-dark;
-        .memberPicture { 
-            border: 0; 
-            background-color: $orange-dark; 
-        }
-    }
-        &:nth-child(2){ 
-            border:1px solid $yellow;
-            .memberPicture { 
-                border: 0; 
-                background-color: $yellow; 
-            }
-        }
-        &:nth-child(3){ 
-            border:1px solid $green;
-            .memberPicture { 
-                border: 0; 
-                background-color: $green; 
-            } 
-        }
-
     color: $white;
     padding: 10%;
     margin: 5%;
@@ -63,14 +40,15 @@ $image-path:'../../assets/img/';
 
     .memberInfo{
         margin-top: 50px;
+        padding:5%;
         .name {
-             @include main-title (3rem, $white);
+             @include main-title (3rem, $black);
             margin: 20px;
             margin-bottom: .5em;
         }
 
         .bio{
-            @include main-title (1.2rem, $white);
+            @include main-title (1.2rem, $black);
         }
 
         ul {
@@ -79,10 +57,43 @@ $image-path:'../../assets/img/';
         }
 
         li {
-            font-size: 1.30em;
+            font-size: 1.2em;
             line-height: 1.8em;
             font-weight: 600;
+            color: $black;
         }
     }
+
+    
+    &:nth-child(1){ 
+        border:1px solid $orange-dark;
+        .memberPicture { 
+            border: 0; 
+            background-color: $orange-dark; 
+        }
+        .memberInfo {
+          background-color: $orange-dark;   
+        }
+    }
+        &:nth-child(2){ 
+            border:1px solid $yellow;
+            .memberPicture { 
+                border: 0; 
+                background-color: $yellow; 
+            }
+            .memberInfo {
+             background-color: $yellow;    
+            }
+        }
+        &:nth-child(3){ 
+            border:1px solid $green;
+            .memberPicture { 
+                border: 0; 
+                background-color: $green; 
+            } 
+            .memberInfo{
+                background-color: $green; 
+            }
+        }
 
 }
