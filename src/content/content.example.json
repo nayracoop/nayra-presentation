@@ -63,9 +63,17 @@
         "title": "¿Qué es FIT?",
         "text": "Flujo Intercooperativo de Trabajo. Modelo de trabajo y de relaciones económicas sociales y solidarias. Cooperar en vez de competir."
     },
+    "art": {
+        "number": "03",
+        "title": "Arte digital"
+    },
     "creativeCoding": {
         "title": "Creative Coding",
-        "text": "Creative Coding es blablablabla saraza"
+        "text": "Uso del código de programación con finalidades estéticas: visuales, música, mapping, realidad virtual y aumentada, interfaces interactivas, representaciones de datos, animaciones, etc."
+    },
+    "electronicArts": {
+        "title": "Artes Electrónicas",
+        "text": "Laboratorio I"
     },
     "end": {
         "title": "Gracias :)",
@@ -129,6 +137,12 @@
         {
             "url": "/art/creativeCoding",
             "title": "Creative Coding",
+            "visible": false,
+            "exact": false
+        },
+        {
+            "url": "/art/electronic-arts",
+            "title": "Artes electrónicas",
             "visible": false,
             "exact": false
         },

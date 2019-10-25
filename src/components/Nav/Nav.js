@@ -6,9 +6,9 @@ const Nav = (props) => {
 
     let options = null;
     if (props.options) {
-        options = props.options.map(opt => {
+        options = props.options.map((opt, index) => {
             let link = opt.exact ? <NavLink to={opt.url} exact>{opt.title}</NavLink> : <NavLink to={opt.url}>{opt.title}</NavLink>
-            return opt.visible ? <li>{link}</li> : null;
+            return opt.visible ? <li key={index}>{link}</li> : null;
         })
     }
 
