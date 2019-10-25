@@ -47,21 +47,23 @@
     },
     "coop": {
         "number": "02",
-        "title": "Por qué cooperativa"
+        "title": "Por qué cooperativa",
+        "img": "nayres.jpg"
     },
     "cooperativism": {
         "title": "¿Qué es una Cooperativa?",
         "text": "1. Membresía abierta y voluntaria / 2. Control democrático de los miembros / 3. Participación económica de los miembros / 4. Autonomía e independencia / 5. Educación, formación e información / 6. Cooperación entre cooperativas / 7. Compromiso con la comunidad",
-        "img": "nayres.jpg"
+        "img": "facttic.jpg"
     },
     "facttic": {
         "title": "FACTTIC",
         "text": "Federacion Argentina de Cooperativas de Trabajo de Tecnologia Innovacion y Conocimiento",
-        "img": "nayres.jpg"
+        "img": "facttic.jpg"
     },
     "fit": {
         "title": "¿Qué es FIT?",
-        "text": "Flujo Intercooperativo de Trabajo. Modelo de trabajo y de relaciones económicas sociales y solidarias. Cooperar en vez de competir."
+        "text": "Flujo Intercooperativo de Trabajo. Modelo de trabajo y de relaciones económicas sociales y solidarias. Cooperar en vez de competir.",
+        "img": "fit.png"
     },
     "art": {
         "number": "03",
@@ -69,7 +71,8 @@
     },
     "creativeCoding": {
         "title": "Creative Coding",
-        "text": "Uso del código de programación con finalidades estéticas: visuales, música, mapping, realidad virtual y aumentada, interfaces interactivas, representaciones de datos, animaciones, etc."
+        "text": "Uso del código de programación con finalidades estéticas: visuales, música, mapping, realidad virtual y aumentada, interfaces interactivas, representaciones de datos, animaciones, etc.",
+        "img": "artes.jpg"
     },
     "electronicArts": {
         "title": "Artes Electrónicas",
