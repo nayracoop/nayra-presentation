@@ -99,7 +99,7 @@ class App extends Component {
           <CreativeCoding title={texts.creativeCoding.title} text={texts.creativeCoding.text} image={require('../assets/img/' + texts.creativeCoding.img)} />
         </Route>
         <Route path="/art/electronic-arts" exact>
-          <Facttic title={texts.electronicArts.title} text={texts.electronicArts.text} img="" />
+          <Facttic title={texts.electronicArts.title} text={texts.electronicArts.text} image={require('../assets/img/' + texts.electronicArts.img)} />
         </Route>
         <Route path="/thanks" exact>
           <Intro title={texts.end.title} description={texts.end.description} />

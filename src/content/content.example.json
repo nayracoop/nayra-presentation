@@ -57,11 +57,12 @@
     "facttic": {
         "title": "FACTTIC",
         "text": "Federacion Argentina de Cooperativas de Trabajo de Tecnologia Innovacion y Conocimiento",
-        "img": "nayres.jpg"
+        "img": "facttic.jpg"
     },
     "fit": {
         "title": "¿Qué es FIT?",
-        "text": "Flujo Intercooperativo de Trabajo. Modelo de trabajo y de relaciones económicas sociales y solidarias. Cooperar en vez de competir."
+        "text": "Flujo Intercooperativo de Trabajo. Modelo de trabajo y de relaciones económicas sociales y solidarias. Cooperar en vez de competir.",
+        "img": "fit.png"
     },
     "art": {
         "number": "03",
@@ -69,11 +70,13 @@
     },
     "creativeCoding": {
         "title": "Creative Coding",
-        "text": "Uso del código de programación con finalidades estéticas: visuales, música, mapping, realidad virtual y aumentada, interfaces interactivas, representaciones de datos, animaciones, etc."
+        "text": "Uso del código de programación con finalidades estéticas: visuales, música y arte sonoro, mapping, realidad virtual y aumentada, interfaces interactivas, representaciones de datos, animaciones, etc.",
+        "img": "artes.jpg"
     },
     "electronicArts": {
         "title": "Artes Electrónicas",
-        "text": "Laboratorio I"
+        "text": "Laboratorio I",
+        "img": "artes.jpg"
     },
     "end": {
         "title": "Gracias :)",
