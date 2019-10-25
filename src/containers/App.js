@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import { withRouter } from 'react-router'
+import { withRouter } from 'react-router';
 
 import './App.scss';
 import texts from '../content/content';
-import Nav from '../components/Nav/Nav'
+import Nav from '../components/Nav/Nav';
 import Intro from '../components/Intro/Intro';
 import Team from '../components/About/Team';
 import Nayra from '../components/About/Nayra';

@@ -1,5 +1,5 @@
-import React from 'react'
-import './Cover.scss'
+import React from 'react';
+import './Cover.scss';
 
 const cover = (props) => {
     return (
