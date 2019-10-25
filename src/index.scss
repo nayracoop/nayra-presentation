@@ -12,25 +12,28 @@ body {
 }
 .layout{               
     .info{
+        @include layout("", $two-rows,"");
         height:90%;
         border: 1px solid $white;
         display: grid;
         align-content: center;  
+        text-align: left;
+    
 
         .title{
             @include main-title(5rem, $white);
+            width:80%;
+             margin: 0 auto;
         }
         .text{
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             line-height: 2.2rem;
-            padding-top: 2rem;;
-            width: 90%;
+            width: 80%;
             margin: 0 auto;
         }
     }
     .image{
         height:90%;
-        background-color:$black;
         overflow: hidden;
         img{
             height:100%;

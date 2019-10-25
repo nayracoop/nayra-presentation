@@ -9,7 +9,7 @@ const Fit = (props) => {
                     <h2 className="title">{props.title}</h2>
                     <p className="text">{props.text}</p>
                 </div>
-                <div className="image">{props.image}</div>
+                <div className="image"><img src={props.image} /></div>
             </div>
         </div>
     );

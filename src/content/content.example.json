@@ -48,7 +48,7 @@
     "coop": {
         "number": "02",
         "title": "Por qué cooperativa"
-      },
+    },
     "end": {
         "title": "Gracias :)",
         "description": "nayra.coop | facttic.org.ar | facttic.org.ar/fit"
@@ -61,15 +61,17 @@
     "facttic": {
         "title": "¿Qué es FACTTIC?",
         "text": "FACTTIC es blablablabla saraza",
-        "img": "nayres.jpg"
+        "img": "facttic.jpg"
     },
     "fit": {
         "title": "¿Qué es FIT?",
-        "text": "El FIT es blablablabla saraza"
+        "text": "El FIT es blablablabla saraza",
+        "img": "fit.png"
     },
     "creativeCoding": {
         "title": "Creative Coding",
-        "text": "Creative Coding es blablablabla saraza"
+        "text": "Creative Coding es blablablabla saraza",
+        "img": "artes.jpg"
     },
     "software": {
         "title": "¿Qué es FIT?",

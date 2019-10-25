@@ -70,22 +70,22 @@ class App extends Component {
           <Nayra title={texts.nayra.title} text={texts.nayra.text} image={require('../assets/img/' + texts.nayra.img)} />
         </Route>
         <Route path="/cooperativism" exact>
-        <Cover pageNumber={texts.coop.number} title={texts.coop.title} />
+          <Cover pageNumber={texts.coop.number} title={texts.coop.title} />
         </Route>
         <Route path="/cooperativism/how" exact>
-          <Cooperativism title={texts.cooperativism.title} text={texts.cooperativism.text} img="" />
+          <Cooperativism title={texts.cooperativism.title} text={texts.cooperativism.text} image={require('../assets/img/' + texts.cooperativism.img)} />
         </Route>
         <Route path="/cooperativism/facttic" exact>
-          <Facttic title={texts.facttic.title} text={texts.facttic.text} img="" />
+          <Facttic title={texts.facttic.title} text={texts.facttic.text} image={require('../assets/img/' + texts.facttic.img)} />
         </Route>
         <Route path="/cooperativism/fit" exact>
-          <Fit title={texts.fit.title} text={texts.fit.text} img="" />
+          <Fit title={texts.fit.title} text={texts.fit.text} image={require('../assets/img/' + texts.fit.img)} />
         </Route>
         <Route path="/art" exact>
           <Cover pageNumber="03" title="Artes Electrónicas" />
         </Route>
         <Route path="/art/creativeCoding" exact>
-          <CreativeCoding title={texts.creativeCoding.title} text={texts.creativeCoding.text} img="" />
+          <CreativeCoding title={texts.creativeCoding.title} text={texts.creativeCoding.text} image={require('../assets/img/' + texts.creativeCoding.img)} />
         </Route>
         <Route path="/industry" exact>
           <Cover pageNumber="04" title="Software" />

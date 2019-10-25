@@ -14,19 +14,38 @@ $image-path:'../../assets/img/';
 
     .info{
         .title{
-             @include logo(10rem, $white);
+             @include logo(7rem, $white);
         }
     }
 }
 
 .teamMember {
 
-    &:nth-child(1) .memberPicture { border: 0; background-color: $orange-dark; }
-    &:nth-child(2) .memberPicture { border: 0; background-color: $yellow; }
-    &:nth-child(3) .memberPicture { border: 0; background-color: $green; }
+    &:nth-child(1){ 
+        border:1px solid $orange-dark;
+        .memberPicture { 
+            border: 0; 
+            background-color: $orange-dark; 
+        }
+    }
+        &:nth-child(2){ 
+            border:1px solid $yellow;
+            .memberPicture { 
+                border: 0; 
+                background-color: $yellow; 
+            }
+        }
+        &:nth-child(3){ 
+            border:1px solid $green;
+            .memberPicture { 
+                border: 0; 
+                background-color: $green; 
+            } 
+        }
 
     color: $white;
     padding: 10%;
+    margin: 5%;
     .memberPicture{
         display: grid;
         align-items: center;
@@ -45,30 +64,25 @@ $image-path:'../../assets/img/';
     .memberInfo{
         margin-top: 50px;
         .name {
-             @include main-title (4rem, $white);
+             @include main-title (3rem, $white);
             margin: 20px;
             margin-bottom: .5em;
         }
 
         .bio{
-            @include main-title (1.5rem, $white);
+            @include main-title (1.2rem, $white);
         }
 
         ul {
+            text-align: left;
             margin-top: 2.5em;
-            padding:40px;
         }
 
         li {
             font-size: 1.30em;
             line-height: 1.8em;
             font-weight: 600;
-            color: $black;
         }
     }
-
-    &:nth-child(1) ul { border: 0; background-color: $orange-dark;}
-    &:nth-child(2) ul { border: 0; background-color: $yellow;}
-    &:nth-child(3) ul { border: 0; background-color: $green; }
 
 }
