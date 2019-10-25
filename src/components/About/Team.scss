@@ -8,6 +8,17 @@ $image-path:'../../assets/img/';
     background-image:url($image-path + $grid_background); 
 }
 
+.layout-nayra .inner-container{
+    @include layout($two-columns,"", $black);
+    background-image:url($image-path + $grid_background); 
+
+    .info{
+        .title{
+             @include logo(10rem, $white);
+        }
+    }
+}
+
 .teamMember {
     color: $white;
     padding: 10%;
