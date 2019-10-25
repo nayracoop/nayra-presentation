@@ -1,17 +1,25 @@
 import React from 'react';
 import './Team.scss';
 
-
 const teamMember = (props) => {
+
+    let bio = (props.bio) ? <p className="bio">{props.bio}</p> : null;
+    let info = null;
+    if (props.info) {
+        info = <ul>{props.info.map(item => {
+            return <li>{item}</li>
+        })}</ul>
+    }
+    
     return (
         <div className="teamMember">
             <div className="memberPicture">
-                <img src={props.image} alt={props.imgAltTxt}></img>
+                <img src={props.image} alt="" />
             </div>
             <div className="memberInfo">
                 <h2 className="name">{props.name}</h2>
-                <p className="bio">{props.bio}</p>
-                <p className="info">{props.info}</p>
+                {bio}
+                {info}
             </div>
         </div>
     );
