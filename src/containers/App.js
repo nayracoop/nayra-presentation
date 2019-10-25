@@ -87,7 +87,7 @@ class App extends Component {
           <Cooperativism title={texts.cooperativism.title} text={texts.cooperativism.text} image={require('../assets/img/' + texts.cooperativism.img)} />
         </Route>
         <Route path="/cooperativism/facttic" exact>
-          <Facttic title={texts.facttic.title} text={texts.facttic.text} image={require('../assets/img/' + texts.facttic.img)} />
+          <Facttic title={texts.facttic.title} text={texts.facttic.text} image={texts.facttic.img} />
         </Route>
         <Route path="/cooperativism/fit" exact>
           <Fit title={texts.fit.title} text={texts.fit.text} image={require('../assets/img/' + texts.fit.img)} />
@@ -96,10 +96,10 @@ class App extends Component {
         <Cover pageNumber={texts.art.number} title={texts.art.title} />
         </Route>
         <Route path="/art/creativeCoding" exact>
-          <CreativeCoding title={texts.creativeCoding.title} text={texts.creativeCoding.text} image={require('../assets/img/' + texts.creativeCoding.img)} />
+          <CreativeCoding title={texts.creativeCoding.title} text={texts.creativeCoding.text} />
         </Route>
-        <Route path="/art/electronic-arts" exact>
-          <Facttic title={texts.electronicArts.title} text={texts.electronicArts.text} image={require('../assets/img/' + texts.electronicArts.img)} />
+        <Route path="/art/electronic-arts">
+          <Facttic title={texts.electronicArts.title} text={texts.electronicArts.text} image={texts.electronicArts.img} />
         </Route>
         <Route path="/thanks" exact>
           <Intro title={texts.end.title} description={texts.end.description} />

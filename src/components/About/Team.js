@@ -3,8 +3,8 @@ import TeamMember from './TeamMember'
 
 const team = (props) => {
 
-    let members = props.members.map(member => {
-        return <TeamMember name={member.name} bio={member.bio} info={member.info} image={require('../../assets/img/' + member.icon)} />
+    let members = props.members.map((member, index) => {
+        return <TeamMember  key={index} name={member.name} bio={member.bio} info={member.info} image={require('../../assets/img/' + member.icon)} />
     });
 
     return (

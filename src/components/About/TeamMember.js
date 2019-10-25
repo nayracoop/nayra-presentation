@@ -6,8 +6,8 @@ const teamMember = (props) => {
     let bio = (props.bio) ? <h3 className="bio">{props.bio}</h3> : null;
     let info = null;
     if (props.info) {
-        info = <ul>{props.info.map(item => {
-            return <li>{item}</li>
+        info = <ul>{props.info.map((item, index) => {
+            return <li key={index}>{item}</li>
         })}</ul>
     }
 

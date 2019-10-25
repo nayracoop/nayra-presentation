@@ -51,7 +51,7 @@
         "img": "nayres.jpg"
     },
     "cooperativism": {
-        "title": "¿Qué es una empresa cooperativa?",
+        "title": "¿Qué es una cooperativa?",
         "text": "1. Membresía abierta y voluntaria / 2. Control democrático de los miembros / 3. Participación económica de los miembros / 4. Autonomía e independencia / 5. Educación, formación e información / 6. Cooperación entre cooperativas / 7. Compromiso con la comunidad",
         "img": "facttic.jpg"
     },
@@ -71,12 +71,11 @@
     },
     "creativeCoding": {
         "title": "Creative Coding",
-        "text": "Uso del código de programación con finalidades estéticas: visuales, música, realidad virtual y aumentada, interfaces interactivas, representaciones de datos, animaciones, etc.",
-        "img": "artes.jpg"
+        "text": "Uso del código de programación con finalidades estéticas: visuales, música, realidad virtual y aumentada, interfaces interactivas, representaciones de datos, animaciones, etc."
     },
     "electronicArts": {
         "title": "Artes Electrónicas",
-        "text": "Laboratorio I",
+        "text": "Laboratorio I - @laboratoriouno",
         "img": "artes.jpg"
     },
     "end": {
