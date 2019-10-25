@@ -60,16 +60,26 @@ class App extends Component {
         </Route>
         <Route path="/about" exact>
           <Cover pageNumber="01" title="¿Quienes Somos?" />
+        </Route>
+        <Route path="/about/team" exact>
           <Team />
         </Route>
         <Route path="/cooperativism" exact>
           <Cover pageNumber="02" title="Cooperativas" />
-          <Cooperativism />
-          <Facttic />
-          <Fit />
         </Route>
-        <Route path="/creativeCoding" exact>
+        <Route path="/cooperativism/how" exact>
+          <Cooperativism title={texts.cooperativism.title} text={texts.cooperativism.text} img="" />
+        </Route>
+        <Route path="/cooperativism/facttic" exact>
+          <Facttic title={texts.facttic.title} text={texts.facttic.text} img="" />
+        </Route>
+        <Route path="/cooperativism/fit" exact>
+          <Fit title={texts.fit.title} text={texts.fit.text} img="" />
+        </Route>
+        <Route path="/art" exact>
           <Cover pageNumber="03" title="Artes Electrónicas" />
+        </Route>
+        <Route path="/art/creativeCoding" exact>
           <CreativeCoding />
         </Route>
         <Route path="/industry" exact>

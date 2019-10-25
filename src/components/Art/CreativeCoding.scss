@@ -3,6 +3,6 @@
 
 /*CREATIVE CODING*/
 
-.layout-creativeCoding {
+.layout-creativeCoding .inner-container{
     @include layout($two-columns,"", $orange-dark);
 }
