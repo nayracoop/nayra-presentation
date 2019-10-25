@@ -45,6 +45,10 @@
         "text": "Somos un equipo de programadorxs y artistas constituido como cooperativa de trabajo, dedicado al desarrollo de sistemas interactivos de calidad, confiables y dinámicos. Buscamos perfilarnos como actores culturales en el campo digital y contribuir con nuestro trabajo y experiencia al desarrollo de nuestra comunidad.",
         "img": "nayres.jpg"
     },
+    "coop": {
+        "number": "02",
+        "title": "Por qué cooperativa"
+      },
     "end": {
         "title": "Gracias :)",
         "description": "nayra.coop | facttic.org.ar | facttic.org.ar/fit"
@@ -74,68 +78,81 @@
     "navigation": [
         {
             "url": "/",
-            "title": "Presentación",
-            "visible": true
+            "title": "Intro",
+            "visible": false,
+            "exact": true
         },
         {
             "url": "/about",
             "title": "Quiénes somos",
-            "visible": true
+            "visible": true,
+            "exact": false
         },
         {
             "url": "/about/team",
             "title": "Equipo",
-            "visible": false
+            "visible": false,
+            "exact": false
         },
         {
             "url": "/about/nayra",
             "title": "Equipo",
-            "visible": false
+            "visible": false,
+            "exact": false
         },
         {
             "url": "/cooperativism",
-            "title": "Cooperativas",
-            "visible": true
+            "title": "Por qué cooperativa",
+            "visible": true,
+            "exact": false
         },
         {
             "url": "/cooperativism/how",
-            "title": "Cooperativas",
-            "visible": false
+            "title": "Por qué cooperativa",
+            "visible": false,
+            "exact": false
         },
         {
             "url": "/cooperativism/facttic",
-            "title": "Cooperativas",
-            "visible": false
+            "title": "Por qué cooperativa",
+            "visible": false,
+            "exact": false
         },
         {
             "url": "/cooperativism/fit",
-            "title": "Cooperativas",
-            "visible": false
+            "title": "Por qué cooperativa",
+            "visible": false,
+            "exact": false
         },
         {
             "url": "/art",
             "title": "Artes Electrónicas",
-            "visible": true
+            "visible": true,
+            "exact": false
         },
         {
             "url": "/art/creativeCoding",
             "title": "Creative Coding",
-            "visible": false
+            "visible": false,
+            "exact": false
         },
         {
             "url": "/industry",
             "title": "Software",
-            "visible": true
+            "visible": true,
+            "exact": false
         },
         {
             "url": "/industry/arg",
             "title": "Software",
-            "visible": false
+            "visible": false,
+            "exact": false
         },
         {
             "url": "/thanks",
             "title": "Fin",
-            "visible": false
+            "visible": false,
+            "exact": false
         }
     ]
 }

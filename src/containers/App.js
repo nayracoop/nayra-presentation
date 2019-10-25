@@ -70,7 +70,7 @@ class App extends Component {
           <Nayra title={texts.nayra.title} text={texts.nayra.text} image={require('../assets/img/' + texts.nayra.img)} />
         </Route>
         <Route path="/cooperativism" exact>
-          <Cover pageNumber="02" title="Cooperativas" />
+        <Cover pageNumber={texts.coop.number} title={texts.coop.title} />
         </Route>
         <Route path="/cooperativism/how" exact>
           <Cooperativism title={texts.cooperativism.title} text={texts.cooperativism.text} img="" />
