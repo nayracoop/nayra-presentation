@@ -13,20 +13,32 @@ body {
 .layout{               
     .info{
         height:90%;
-        border: 1px solid $black;
+        border: 1px solid $white;
         display: grid;
-        align-content: center;
+        align-content: center;  
 
         .title{
-            @include main-title(5rem, $black)
+            @include main-title(5rem, $white);
         }
         .text{
-            color: $black;
             font-size: 1.5rem;
             padding-top: 2rem;;
         }
     }
 }
+
+.layout.fit,
+.layout.cooperativism{
+    .info{
+        color:$black;
+        border-color:$black;
+
+        .title{
+            color: $black;
+        }
+    }
+}
+
 
 /* INTRO */
 
