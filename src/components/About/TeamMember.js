@@ -3,14 +3,14 @@ import './Team.scss';
 
 const teamMember = (props) => {
 
-    let bio = (props.bio) ? <p className="bio">{props.bio}</p> : null;
+    let bio = (props.bio) ? <h3 className="bio">{props.bio}</h3> : null;
     let info = null;
     if (props.info) {
         info = <ul>{props.info.map(item => {
             return <li>{item}</li>
         })}</ul>
     }
-    
+
     return (
         <div className="teamMember">
             <div className="memberPicture">

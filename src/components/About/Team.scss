@@ -45,29 +45,30 @@ $image-path:'../../assets/img/';
     .memberInfo{
         margin-top: 50px;
         .name {
-            margin: 50px;
-            margin-bottom: 1em;
+             @include main-title (4rem, $white);
+            margin: 20px;
+            margin-bottom: .5em;
         }
 
-        p {
-            font-size: 1.25em;
+        .bio{
+            @include main-title (1.5rem, $white);
         }
 
         ul {
-            margin-top: 1em;
+            margin-top: 2.5em;
+            padding:40px;
         }
 
         li {
-            font-size: 1.25em;
-            font-weight: 300;
+            font-size: 1.30em;
+            line-height: 1.8em;
+            font-weight: 600;
+            color: $black;
         }
     }
 
-    .name {
-        @include main-title (2rem, $white);
-    }
+    &:nth-child(1) ul { border: 0; background-color: $orange-dark;}
+    &:nth-child(2) ul { border: 0; background-color: $yellow;}
+    &:nth-child(3) ul { border: 0; background-color: $green; }
 
-    ul {
-        list-style: disc;
-    }
 }
