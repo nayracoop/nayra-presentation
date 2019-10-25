@@ -87,12 +87,6 @@ class App extends Component {
         <Route path="/art/creativeCoding" exact>
           <CreativeCoding title={texts.creativeCoding.title} text={texts.creativeCoding.text} img="" />
         </Route>
-        <Route path="/industry" exact>
-          <Cover pageNumber="04" title="Software" />
-        </Route>
-        <Route path="/industry/arg" exact>
-          <SoftwareIndustry title={texts.software.title} text={texts.software.text} img="" />
-        </Route>
         <Route path="/thanks" exact>
           <Intro title={texts.end.title} description={texts.end.description} />
         </Route>

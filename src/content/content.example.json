@@ -1,12 +1,12 @@
 {
     "intro": {
-        "title": "Charla de divulgación",
+        "title": "Charla / presentación",
         "description": "Colegio Las Marías",
         "date": "2019"
     },
     "about": {
         "number": "01",
-        "title": "Quiénes Somos"
+        "title": "Quiénes somos"
     },
     "members": [
         {
@@ -48,32 +48,28 @@
     "coop": {
         "number": "02",
         "title": "Por qué cooperativa"
-      },
-    "end": {
-        "title": "Gracias :)",
-        "description": "nayra.coop | facttic.org.ar | facttic.org.ar/fit"
     },
     "cooperativism": {
         "title": "¿Qué es una Cooperativa?",
-        "text": "Empresas democráticas",
+        "text": "1. Membresía abierta y voluntaria / 2. Control democrático de los miembros / 3. Participación económica de los miembros / 4. Autonomía e independencia / 5. Educación, formación e información / 6. Cooperación entre cooperativas / 7. Compromiso con la comunidad",
         "img": "nayres.jpg"
     },
     "facttic": {
-        "title": "¿Qué es FACTTIC?",
+        "title": "FACTTIC",
         "text": "Federacion Argentina de Cooperativas de Trabajo de Tecnologia Innovacion y Conocimiento",
         "img": "nayres.jpg"
     },
     "fit": {
         "title": "¿Qué es FIT?",
-        "text": "El FIT es blablablabla saraza"
+        "text": "Flujo Intercooperativo de Trabajo. Modelo de trabajo y de relaciones económicas sociales y solidarias. Cooperar en vez de competir."
     },
     "creativeCoding": {
         "title": "Creative Coding",
         "text": "Creative Coding es blablablabla saraza"
     },
-    "software": {
-        "title": "¿Qué es FIT?",
-        "text": "El FIT es blablablabla saraza"
+    "end": {
+        "title": "Gracias :)",
+        "description": "nayra.coop | facttic.org.ar | facttic.org.ar/fit"
     },
     "navigation": [
         {
@@ -133,18 +129,6 @@
         {
             "url": "/art/creativeCoding",
             "title": "Creative Coding",
-            "visible": false,
-            "exact": false
-        },
-        {
-            "url": "/industry",
-            "title": "Software",
-            "visible": true,
-            "exact": false
-        },
-        {
-            "url": "/industry/arg",
-            "title": "Software",
             "visible": false,
             "exact": false
         },
