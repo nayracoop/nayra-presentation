@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/nayra-presentation/static/css/main.c036c29f.chunk.css",
+    "main.js": "/nayra-presentation/static/js/main.c84dbf73.chunk.js",
+    "main.js.map": "/nayra-presentation/static/js/main.c84dbf73.chunk.js.map",
+    "runtime-main.js": "/nayra-presentation/static/js/runtime-main.e3207181.js",
+    "runtime-main.js.map": "/nayra-presentation/static/js/runtime-main.e3207181.js.map",
+    "static/js/2.4dbbfcd4.chunk.js": "/nayra-presentation/static/js/2.4dbbfcd4.chunk.js",
+    "static/js/2.4dbbfcd4.chunk.js.map": "/nayra-presentation/static/js/2.4dbbfcd4.chunk.js.map",
+    "index.html": "/nayra-presentation/index.html",
+    "precache-manifest.b0065a5bfa42e77c50956b04909a670e.js": "/nayra-presentation/precache-manifest.b0065a5bfa42e77c50956b04909a670e.js",
+    "service-worker.js": "/nayra-presentation/service-worker.js",
+    "static/css/main.c036c29f.chunk.css.map": "/nayra-presentation/static/css/main.c036c29f.chunk.css.map",
+    "static/media/_facttic.jpg": "/nayra-presentation/static/media/_facttic.17b5c661.jpg",
+    "static/media/artes.jpg": "/nayra-presentation/static/media/artes.d4971d6d.jpg",
+    "static/media/facttic.jpg": "/nayra-presentation/static/media/facttic.0862e5d8.jpg",
+    "static/media/fit.png": "/nayra-presentation/static/media/fit.d508b463.png",
+    "static/media/icon-1.svg": "/nayra-presentation/static/media/icon-1.b19a0aeb.svg",
+    "static/media/icon-2.svg": "/nayra-presentation/static/media/icon-2.c780571c.svg",
+    "static/media/lineas.svg": "/nayra-presentation/static/media/lineas.6f4960da.svg",
+    "static/media/logo-nayra.svg": "/nayra-presentation/static/media/logo-nayra.d5039930.svg",
+    "static/media/nacho.svg": "/nayra-presentation/static/media/nacho.c24e0e39.svg",
+    "static/media/nayres.jpg": "/nayra-presentation/static/media/nayres.8c53956d.jpg",
+    "static/media/romi.svg": "/nayra-presentation/static/media/romi.561c8f0a.svg",
+    "static/media/tobi.svg": "/nayra-presentation/static/media/tobi.fef15220.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3207181.js",
+    "static/js/2.4dbbfcd4.chunk.js",
+    "static/css/main.c036c29f.chunk.css",
+    "static/js/main.c84dbf73.chunk.js"
+  ]
+}
