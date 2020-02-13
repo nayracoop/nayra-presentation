@@ -2,7 +2,7 @@
 
  Nayra Coop's dynamic presentation for lectures introduction 
  
-:sparkles: Live on **https://nayracoop.github.io/nayra-presentation/** :sparkles: 
+:point_right: Live on **https://nayracoop.github.io/nayra-presentation/** :point_left: 
 
 ## Installation
 
