@@ -1,7 +1,10 @@
 {
   "name": "nayra-presentation",
   "version": "0.1.0",
-  "private": true,
+  "description": "Slides Presentation to be used at lectures",
+  "author": "Nayra Cooper",
+  "homepage": "https://nayracoop.github.io/nayra-presentation/",
+  "license": "GPL-3.0",
   "dependencies": {
     "node-sass": "^4.12.0",
     "p5": "^0.10.2",
